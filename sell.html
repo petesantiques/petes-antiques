@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell an Item - Pete’s Antiques</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Sell an Item</h1>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="estate.html">Auction an Estate</a> |
+        <a href="about.html">About Pete</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Got Something to Sell?</h2>
+    <p>Use this form to show us your rare or special items!</p>
+</section>
+
+<section class="video">
+    <form action="mailto:petesantiques86@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Your Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="item">Describe Your Item:</label><br>
+        <textarea id="item" name="item" rows="5" required></textarea><br><br>
+
+        <label for="photo">Attach Photo (Optional):</label><br>
+        <input type="file" id="photo" name="photo"><br><br>
+
+        <input type="submit" value="Send Item Info">
+    </form>
+</section>
+
+<footer>
+    <p>Located in Fort Collins, Colorado | (970) 217-4318 | petesantiques86@gmail.com</p>
+</footer>
+
+</body>
+</html>
