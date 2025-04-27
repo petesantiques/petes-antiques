@@ -1,8 +1,8 @@
-/* Pete's Antiques - Rustic Luxury Upgraded Style */
+/* Pete's Antiques - Luxury Material Upgrade */
 
 body {
     margin: 0;
-    font-family: 'Georgia', serif;
+    font-family: 'Playfair Display', Georgia, serif;
     background-color: #471F1F;
     color: #FFFFFF;
     line-height: 1.6;
@@ -69,6 +69,7 @@ iframe {
     border-radius: 8px;
 }
 
+/* About Page - Book Paper */
 .about {
     background-image: url('images/old-book-paper.jpg');
     background-size: cover;
@@ -84,16 +85,30 @@ iframe {
     border-radius: 8px;
 }
 
+/* Footer - Mahogany with overlay */
 footer {
     background-image: url('images/mahogany-wood-texture.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: #DDDDDD;
     text-align: center;
-    padding: 30px;
+    padding: 40px 20px;
     font-size: 0.9em;
-    box-shadow: 0 -4px 8px rgba(0,0,0,0.5);
+    position: relative;
+    color: #FFFFFF;
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* dark overlay */
+    z-index: 0;
+}
+
+footer p, footer a {
+    position: relative;
+    z-index: 1;
 }
 
 footer a {
@@ -105,6 +120,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* Section Styling */
 section {
     margin: 20px;
     padding: 20px;
