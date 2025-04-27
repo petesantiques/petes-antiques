@@ -1,4 +1,4 @@
-/* Pete's Antiques - Rustic Luxury Theme */
+/* Pete's Antiques - Rustic Luxury Upgraded Style */
 
 body {
     margin: 0;
@@ -9,21 +9,27 @@ body {
 }
 
 header {
-    background-color: #5C2A2A;
-    padding: 20px;
+    background-image: url('images/red-brick-texture.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 60px 20px;
     text-align: center;
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 2.8em;
     margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 8px;
 }
 
 nav a {
     color: #FFD700;
     text-decoration: none;
-    margin: 0 10px;
-    font-size: 1.2em;
+    margin: 0 15px;
+    font-size: 1.3em;
 }
 
 nav a:hover {
@@ -34,6 +40,7 @@ nav a:hover {
     background-color: #732E2E;
     padding: 50px 20px;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 .hero h2 {
@@ -46,9 +53,10 @@ nav a:hover {
 }
 
 .video {
-    padding: 30px;
-    background-color: #632828;
+    background-color: #5C2A2A;
+    padding: 40px;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 .video h3 {
@@ -61,12 +69,31 @@ iframe {
     border-radius: 8px;
 }
 
+.about {
+    background-image: url('images/old-book-paper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 60px 20px;
+    color: #3D2B1F;
+}
+
+.about h2, .about p {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    border-radius: 8px;
+}
+
 footer {
-    background-color: #471F1F;
+    background-image: url('images/mahogany-wood-texture.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: #DDDDDD;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     font-size: 0.9em;
+    box-shadow: 0 -4px 8px rgba(0,0,0,0.5);
 }
 
 footer a {
@@ -76,4 +103,10 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
 }
