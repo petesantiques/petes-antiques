@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estate Auction Inquiry - Pete’s Antiques</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -21,40 +21,40 @@
 
 <section class="hero">
     <h2>Need Help with an Estate?</h2>
-    <p>We handle full estate auctions and full collections with professionalism and care. Tell us more!</p>
+    <p>Have a house full of treasures or a large collection you need handled with care? Pete’s Antiques specializes in professionally managing estate auctions, from rare collectibles to full household contents. We handle estates both locally and out-of-state with attention to detail and respect for your family’s legacy. If you would like your estate or items to be featured on our YouTube, TikTok, or social media, please let us know below!</p>
 </section>
 
 <section class="video">
-    <p>We love telling the unique stories behind amazing items and estates — it helps keep history alive and helps Pete’s Antiques get discovered by others who appreciate it! With your permission, we’d love to capture and share your story and treasures on platforms like YouTube, TikTok, and Instagram. Think of us like reporters — showcasing the excitement of your collaction without revealing sensitive information. We protect your privacy: full names, specific locations, and any personal details are always kept confidential. Let’s show the world your cool stuff!</p>
+    <p>We love telling the unique stories behind amazing items — it helps keep history alive and helps Pete’s Antiques get discovered by others who appreciate it! With your permission, we’d love to capture and share your story and treasures on platforms like YouTube, TikTok, and Instagram. Think of us like respectful reporters — showcasing the excitement of your finds without revealing sensitive information. We protect your privacy: full names, specific locations, and any personal details are always kept confidential unless you choose otherwise. Let’s show the world your cool stuff, safely and professionally!</p>
 
-
-    <form action="https://formspree.io/f/xdkgkgwv" method="POST" enctype="multipart/form-data">
+    <form action="https://formspree.io/f/YOUR-FORM-ID" method="POST" enctype="multipart/form-data">
         <label for="name">Your Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
+        <input type="text" id="name" name="name" required placeholder="First and last name"><br><br>
 
         <label for="email">Your Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+        <input type="email" id="email" name="email" required placeholder="example@email.com"><br><br>
 
         <label for="phone">Your Phone Number:</label><br>
-        <input type="tel" id="phone" name="phone"><br><br>
+        <input type="tel" id="phone" name="phone" placeholder="Best number to reach you"><br><br>
 
-        <label for="location">Estate/ Collection Location:</label><br>
-        <input type="text" id="location" name="location" required><br><br>
+        <label for="location">Estate Location:</label><br>
+        <input type="text" id="location" name="location" required placeholder="City / Part of town"><br><br>
 
-        <label for="size">Size of Estate/ Collection (Approximate):</label><br>
-        <input type="text" id="size" name="size"><br><br>
+        <label for="size">Size of Estate or Collection:</label><br>
+        <input type="text" id="size" name="size" placeholder="Whole house sqft / # of rooms / Collection size"><br><br>
 
         <label for="details">Brief Details About Contents:</label><br>
-        <textarea id="details" name="details" rows="5" required></textarea><br><br>
+        <textarea id="details" name="details" rows="5" required placeholder="Furniture, antiques, collectibles, general contents..."></textarea><br><br>
 
-       
-<label for="feature">
-</label>Would you like your collections' story to be featured on YouTube/Socials?<br>
-<select id="feature" name="feature" required>
-  <option value="">--Please choose an option--</option>
-  <option value="Yes, we'd love to share!">Yes, we'd love to share!</option>
-  <option value="No, please keep it private.">No, please keep it private.</option>
-</select><br><br>
+        <label for="photo">Attach Photo (Optional):</label><br>
+        <input type="file" id="photo" name="photo"><br><br>
+
+        <label for="feature">Would you like your estate or collection featured on YouTube/TikTok/Socials?</label><br>
+        <select id="feature" name="feature" required>
+          <option value="">--Please choose an option--</option>
+          <option value="Yes, we'd love to share!">Yes, we'd love to share!</option>
+          <option value="No, please keep it private.">No, please keep it private.</option>
+        </select><br><br>
 
         <button type="submit">Submit Inquiry</button>
     </form>
