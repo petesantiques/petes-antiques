@@ -25,6 +25,7 @@
 </section>
 
 <section class="video">
+    <p>We love showcasing rare finds and the amazing stories behind them on our YouTube, TikTok, and social channels! If you would like your item (and story) to be featured, let us know below.</p>
     <form action="https://formspree.io/f/xdkgkgwv" method="POST" enctype="multipart/form-data">
         <label for="name">Your Name:</label><br>
         <input type="text" id="name" name="name" required><br><br>
@@ -39,6 +40,12 @@
         <textarea id="item" name="item" rows="5" required></textarea><br><br>
 
        
+<label for="feature">Would you like to be featured on YouTube/TikTok/Socials?</label><br>
+<select id="feature" name="feature" required>
+  <option value="">--Please choose an option--</option>
+  <option value="Yes, I'd love to!">Yes, I'd love to!</option>
+  <option value="No, I'd prefer not to.">No, I'd prefer not to.</option>
+</select><br><br>
 
         <button type="submit">Send Item Info</button>
     </form>
